@@ -130,7 +130,7 @@ main{
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
     background-image: url('../assets/img/Bitcoin.svg');
     background-size: cover;
     background-position: center;
@@ -151,3 +151,5 @@ main{
     line-height: 1.8rem;
     color:#757575;
 }
+
+/*?estilos de la tabla*/
