@@ -154,7 +154,7 @@ main{
 
 /*!estilos de la tabla*/
 
- /*?primera tabla*/
+/*?primera tabla*/
 .main-currency-table{
     width: 70%;
     min-height: 235px;
@@ -241,7 +241,15 @@ main{
     background-repeat: no-repeat;
 }
 
+.currency-table--date{
+    margin: 15px auto;
+    width: 190px;
+    height: 30px;
+    background-color: var(--soft-orange);
+    border-radius: 10px;
+    padding: 8px;
 
+}
 /*?segunda tabla*/
 
 .main-commissions-table{
@@ -290,3 +298,13 @@ main{
     line-height: 17px;
     color: #757575;
 }
+
+.commissions-table--date{
+    width: 175px;
+    height: 30px;
+    padding: 8px;
+    margin: 15px auto;
+    background-color: var(--soft-blue);
+    border-radius: 15px;
+}
+
