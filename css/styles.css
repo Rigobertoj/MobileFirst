@@ -434,3 +434,92 @@ main{
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+.plans-container--slider{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.plans--title{
+    text-align: center;
+    padding: 10px;
+}
+
+.plans--title h2{
+    color: var(--black);
+    font-weight:bold;
+    font-size:2.4rem;
+    line-height: 2.4rem;
+    margin-top: 20px;
+}
+
+.plans--title p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--gray);
+    font-size:  1.2rem;
+    font-weight: 500;
+}
+
+.plans-container--slider{
+    width: 100%;
+    justify-content: center;
+    background-color: var(#E5E5E5);
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-container--card{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container--card .article-plans-recomended{
+    width: 100px;
+    height: 30px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 45px);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.plans-container--card h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.plans-container--card .price{
+    justify-self: center;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.plans-container--card .price sup{
+    font-size: .8rem;
+    line-height: .2rem;
+    display: block;
+}
+
+.plans-container--card p{
+    color: var(--gray);
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.plans-container--card button{
+    width: 150px;
+    height: 50px;
+    justify-self:flex-end;
+}
