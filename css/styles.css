@@ -481,6 +481,22 @@ main{
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.plans-container--card-limitado{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0px;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: var(--black);
+    color: var(--just-white);
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
 .article-plans-recomended{
     width: 120px;
     height: 30px;
@@ -491,6 +507,32 @@ main{
     border-radius:10px;
     background-color: var(--bitcoin-orange);
     color: var(--just-white);
+    padding: 8px;
+}
+
+.article-plans-mensual{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    border-radius:10px;
+    background-color: var(--secondary-blue);
+    color: var(--just-white);
+    padding: 8px;
+}
+
+.article-plans-limitado{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    border-radius:10px;
+    background-color: var(--gray);
+    color: var(--black);
     padding: 8px;
 }
 
@@ -506,6 +548,13 @@ main{
     font-size: 14px;
     line-height: 1.8rem;
     color: var(--black);
+}
+.title-info{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8rem;
+    color: var(--just-white);
 }
 
 .plan-info-container .price{
