@@ -481,3 +481,67 @@ main{
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.article-plans-recomended{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    border-radius:10px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    padding: 8px;
+}
+
+/* .plan-info-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+} */
+
+.plan-info-container h3{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan-info-container .price{
+    font-size: 5.2rem;
+    padding: 5px 0px;
+    font-weight:bold;
+    line-height: 6.3rem;
+    color:  black;
+}
+
+.plan-info-container .price sup{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+
+.plan-info-container .parrafo{
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.plan-info-container button{
+    width: 150px;
+    height: 50px;
+    border: solid 1px var(--bitcoin-orange);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    background-color: var(--off-white);
+}
+
+.plan-info-container button span{
+    background-image: url("../assets/icons/orange-right-arrow.svg");
+    position:absolute;
+    left: 50%;
+}
