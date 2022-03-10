@@ -607,3 +607,32 @@ main{
     vertical-align: text-bottom;
 }
 
+footer{
+    background-color: var(--bitcoin-orange);
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+footer section ul{
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+footer section li{
+    color: var(--just-white);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    list-style-type: none;
+}
+
+footer section ul a{
+    text-decoration: none;
+    color: var(--just-white);
+}
+
+footer section img{
+    padding-top: 15px;
+}
